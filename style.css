@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 16px;
+  color: #444;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  padding: 0 15px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.row {
+  margin: 0 -15px;
+}
+
+.col-1 {
+  width: 8.33%;
+}
+
+.col-2 {
+  width: 16.66%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-5 {
+  width: 41.66%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33%;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33%;
+}
+
+.col-11 {
+  width: 91.66%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12 {
+  float: left;
+  padding: 0 15px;
+}
+
+.heading {
+  padding: 10px 0;
+  font-size: 2em;
+}
+
+.white-box {
+  padding: 10px 15px;
+  background-color: white;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.btn {
+  color: white;
+  outline: none;
+  border: none;
+  padding: 11px 15px;
+  background-color: #2196f3;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.header {
+  background-color: #2196f3;
+  color: white;
+}
+
+.main {
+}
+
+.user-img {
+  width: 100%;
+  background-size: cover;
+  vertical-align: middle;
+  border-radius: 50%;
+}
+
+.user-comment-input {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #dedada;
+  padding: 0 10px;
+  font-size: 1em;
+}
+
+.all-comments {
+  border-radius: 5px;
+}
+
+.comment-col {
+  border: 1px solid #dedada;
+}
+
+.comment-container {
+  width: 100%;
+  overflow-y: auto;
+  min-height: 100px;
+  max-height: 62vh;
+  margin: 15px 0;
+}
+
+.comment-container > .white-box {
+  border-bottom: 1px solid #dedada;
+  border-left: 1px solid #dedada
+}
+
+.comment-user {
+  margin-bottom: 5px;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.comment-text {
+  margin-bottom: 5px;
+  width: 100%;
+  font-size: 1em;
+  word-break: break-all;
+  padding-left: 6px;
+}
+
+.reply-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #2196f3;
+  font-size: 0.8em;
+}
+.reply-inputBox {
+  height: 36px;
+  min-height: 40px;
+}
+
+.replyTemplate .white-box {
+  min-height: 36px;
+}
+
+.reply-box {
+  padding-bottom: 0!important;
+  margin-bottom: 0!important;
+}
+.avatar {
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  .text-align{
+    text-align: left;
+    padding: 0px 50px;
+  }
+
+@media only screen and (max-width: 640px) {
+  body {
+    font-size: 12px;
+  }
+  .col-1,
+  .col-2,
+  .col-3,
+  .col-4,
+  .col-5,
+  .col-6,
+  .col-7,
+  .col-8,
+  .col-9,
+  .col-10,
+  .col-11,
+  .col-12 {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .btn {
+    width: 100%;
+  }
+  .white-box {
+    padding: 0;
+  }
+}

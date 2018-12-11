@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Comment Widget
+    </title>
+    <link rel="icon" href="./images/chat.png">
+    
+    <link rel="stylesheet" href="./style.css">
+    <script src="./index.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="row">
+            <div class="header col-12 white-box">
+                <div class="heading">Welcome To comments Widget</div>
+            </div>
+        </div>
+        
+        <div class="row main">
+            <div class="col-3">
+                <img class="user-img" src="./images/img.jpg"></img>
+            </div>
+            <div class="col-9">
+                <div class="comment-section white-box">
+                    <div class="row">
+                        <div class="col-10">
+                            <input class="user-comment-input" placeholder="Enter Initial Comment" />
+                        </div>
+                        <div class="col-2">
+                            <button class="submit-comment btn">Comment</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="white-box all-comments">
+                    <div class="heading" id='all-commentLabel'>Comments</div>
+                    <!-- Template -->
+                    <div class="comment-container">
+                        <!--Dynamically content rendering here-->
+                    </div>
+                    <!-- Template -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
